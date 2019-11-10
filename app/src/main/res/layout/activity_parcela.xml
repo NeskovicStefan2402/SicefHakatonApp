@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".ParcelaActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="336dp"
+        android:layout_height="576dp"
+        android:layout_x="33dp"
+        android:layout_y="113dp"
+        app:srcCompat="@color/zasad"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="231dp"
+        android:layout_height="115dp"
+        android:layout_x="0dp"
+        android:layout_y="64dp"
+        app:srcCompat="@drawable/poruka"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="157dp"
+        android:layout_height="115dp"
+        android:layout_x="226dp"
+        android:layout_y="182dp"
+        app:srcCompat="@drawable/poruka"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="157dp"
+        android:layout_height="115dp"
+        android:layout_x="47dp"
+        android:layout_y="266dp"
+        app:srcCompat="@drawable/poruka"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="157dp"
+        android:layout_height="115dp"
+        android:layout_x="232dp"
+        android:layout_y="367dp"
+        app:srcCompat="@drawable/poruka"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="157dp"
+        android:layout_height="115dp"
+        android:layout_x="47dp"
+        android:layout_y="502dp"
+        app:srcCompat="@drawable/poruka"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="157dp"
+        android:layout_height="115dp"
+        android:layout_x="230dp"
+        android:layout_y="573dp"
+        app:srcCompat="@drawable/poruka"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <TextView
+        android:id="@+id/textViewTemp2"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_x="73dp"
+        android:layout_y="295dp"
+        android:text="Temperatura vazduha"
+        android:textColor="#030303"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/textViewGas1"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_x="73dp"
+        android:layout_y="531dp"
+        android:text="Butan"
+        android:textColor="#030303"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/textViewVlaznost2"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_x="258dp"
+        android:layout_y="394dp"
+        android:text="Vlaznost zemljista"
+        android:textColor="#030303"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/textViewVlaznost"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_x="251dp"
+        android:layout_y="209dp"
+        android:text="Vlaznost zemljista"
+        android:textColor="#030303"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/textViewGas2"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_x="258dp"
+        android:layout_y="604dp"
+        android:text="Karbon"
+        android:textColor="#030303"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/textViewTemp5"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_x="63dp"
+        android:layout_y="92dp"
+        android:text="Temperatura zemljista"
+        android:textColor="#030303"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+</AbsoluteLayout>

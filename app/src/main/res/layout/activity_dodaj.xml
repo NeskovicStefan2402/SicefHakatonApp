@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".dodajActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="343dp"
+        android:layout_height="661dp"
+        android:layout_x="39dp"
+        android:layout_y="109dp"
+        android:background="@color/bela"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="287dp"
+        android:layout_height="61dp"
+        android:layout_x="74dp"
+        android:layout_y="273dp"
+        android:background="@drawable/login_txt"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Naziv uredjaja"
+        android:inputType="textPassword"
+        android:textColor="@color/pozadinaLogin"
+        android:textColorHint="@color/pozadinaLogin"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="287dp"
+        android:layout_height="61dp"
+        android:layout_x="74dp"
+        android:layout_y="184dp"
+        android:background="@drawable/login_txt"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="IP Address"
+        android:inputType="text"
+        android:textColor="@color/pozadinaLogin"
+        android:textColorHint="@color/pozadinaLogin"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <fragment
+        android:id="@+id/podmapa"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="279dp"
+        android:layout_height="252dp"
+        android:layout_x="75dp"
+        android:layout_y="371dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="251dp"
+        android:layout_height="60dp"
+        android:layout_x="87dp"
+        android:layout_y="676dp"
+        android:background="@drawable/login_btn"
+        android:text="Dodaj uredjaj"
+        android:onClick="posaljiStanicu"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="572dp" />
+
+</AbsoluteLayout>

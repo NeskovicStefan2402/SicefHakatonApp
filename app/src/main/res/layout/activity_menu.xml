@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".menuActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="148dp"
+        android:layout_height="144dp"
+        android:layout_x="41dp"
+        android:layout_y="310dp"
+        android:background="@drawable/kartica"
+        android:onClick="otvoriMapu"
+        app:srcCompat="@drawable/mapa"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="148dp"
+        android:layout_height="144dp"
+        android:layout_x="224dp"
+        android:layout_y="549dp"
+        android:background="@drawable/kartica"
+        app:srcCompat="@drawable/settings"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <ImageView
+        android:id="@+id/imageViewAdd"
+        android:layout_width="148dp"
+        android:layout_height="144dp"
+        android:layout_x="219dp"
+        android:layout_y="310dp"
+        android:background="@drawable/kartica"
+        android:onClick="dodajUredjaj"
+        app:srcCompat="@drawable/uredjaj"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="148dp"
+        android:layout_height="144dp"
+        android:layout_x="41dp"
+        android:layout_y="549dp"
+        android:background="@drawable/kartica"
+        app:srcCompat="@drawable/uredjajdruga"
+        android:onClick="obrisiUredjaj"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="244dp"
+        android:layout_height="201dp"
+        android:layout_x="79dp"
+        android:layout_y="41dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+</AbsoluteLayout>
